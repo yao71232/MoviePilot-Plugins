@@ -16,7 +16,7 @@ class OpenAi:
     def __init__(self, api_key: str = None, api_url: str = None, proxy: dict = None, model: str = None):
         self._api_key = api_key
         self._api_url = api_url
-        openai.api_base = self._api_url + "/v1"
+        openai.api_base = self._api_url
         openai.api_key = self._api_key
         if proxy and proxy.get("https"):
             openai.proxy = proxy.get("https")
