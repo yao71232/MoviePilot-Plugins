@@ -136,7 +136,7 @@ class ChatGPT(_PluginBase):
                                         'props': {
                                             'model': 'openai_url',
                                             'label': 'OpenAI API Url',
-                                            'placeholder': 'https://api.openai.com',
+                                            'placeholder': 'https://ark.cn-beijing.volces.com/api',
                                         }
                                     }
                                 ]
@@ -204,7 +204,7 @@ class ChatGPT(_PluginBase):
             "enabled": False,
             "proxy": False,
             "recognize": False,
-            "openai_url": "https://api.openai.com",
+            "openai_url": "https://ark.cn-beijing.volces.com/api",
             "openai_key": "",
             "model": "gpt-3.5-turbo"
         }
